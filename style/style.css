@@ -1,0 +1,94 @@
+.logo{
+    display: block;
+    margin:0 auto;
+}
+.middle span{
+    display:block;
+    margin:0 auto;
+}
+.middle{
+    padding-bottom: 50px;
+}
+.restaurant_name{
+    font-size:70px;
+}
+ul.menu-list{
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    display:block;
+    margin: 0 auto;
+}
+ul.menu-list li {
+    font-size: 13px;
+    line-height: 40px;
+    padding-bottom: 5px;
+}
+ul.menu-list li:before {
+    float: left;
+    width:100%;
+    padding-top: 10px;
+    color: #cacaca;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " 
+    ". . . . . . . . . . . . . . . . . . . . "". . . . . . . . . . . . . . . . . . . . " ;
+}
+ul.menu-list span:first-child {
+    padding-right: 0.33em;
+    font-weight: 400;
+}
+ul.menu-list span + span {
+    float: right;
+    padding-left: 0.33em;
+    margin-top: -3px;
+}
+ul.menu-list sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+ul.menu-list span:nth-child(3) {
+    display: block; 
+    clear: both; 
+    text-align: left;
+    width:100%;
+    float: left;
+    padding-left: 0.33em;
+    padding-right: 0.33em;
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-left: -5px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    margin-top: -12px;
+}
+span{
+    font-size:15px;
+}
+table{
+    border: none;
+}
+
+.price h5{
+    float:right;
+    font-size:15px !important;
+}
+.txt_size{
+    font-size:15px;
+}
+button{
+    font-size:13px !important;
+}
+.back{
+    width:120%;
+    padding:7px 0 !important;
+}
+.middle_ {
+    display:block;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom: 20px;
+}
+.middle_ span a button{
+    font-size: 25px !important;
+}
